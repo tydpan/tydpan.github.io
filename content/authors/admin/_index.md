@@ -22,7 +22,7 @@ organizations:
     url: https://www.osu.edu
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: PhD candidate working on machine learning and computer vision at The Ohio State University
 
 # Interests to show in About widget
 interests:
