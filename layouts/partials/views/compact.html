@@ -1,0 +1,94 @@
+{{ $item := .item }}
+
+{{/* Dynamic view adjusts to content type. */}}
+{{ $show_authors_only := false }}{{/* Show authors only or full metadata? */}}
+{{ $link := $item.RelPermalink }}
+{{ $target := "" }}
+{{ if $item.Params.external_link }}
+  {{ $link = $item.Params.external_link }}
+  {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
+{{ end }}
+{{ if eq $item.Type "event" }}
+  {{ $show_authors_only = true }}
+{{ else if eq $item.Type "publication" }}
+  {{ $show_authors_only = true }}
+{{ else if eq $item.Type "project" }}
+  {{ $show_authors_only = true }}
+{{ end }}
+
+{{ $has_attachments := partial "functions/has_attachments" $item }}
+
+{{/* Get summary. */}}
+{{ $summary := "" }}
+{{ if $item.Params.summary }}
+  {{ $summary = $item.Params.summary | markdownify | emojify }}
+{{ end }}
+
+
+
+<div class="col-lg-12 mb-3 view-compact">
+  <div class="row align-items-center">
+    <div class="col-12 col-md-8">
+
+      <div class="section-subheading article-title mb-0 mt-0">
+        <a href="{{$link}}" {{ $target | safeHTMLAttr }}>{{ $item.Title }}</a>
+      </div>
+
+      <div class="stream-meta article-metadata">
+
+        {{ if eq $item.Type "event" }}
+        <div>
+          <span>
+            {{ partial "functions/get_event_dates" $item }}
+          </span>
+          {{ with $item.Params.location }}
+          <span class="middot-divider"></span>
+          <span>{{ . }}</span>
+          {{ end }}
+        </div>
+        {{ end }}
+
+        {{ if and $show_authors_only $item.Params.authors }}
+        <div>
+          {{ partial "page_metadata_authors" $item }}
+        </div>
+        {{ else if not $show_authors_only }}
+          {{ partial "page_metadata" (dict "page" $item "is_list" 1) }}
+        {{ end }}
+      </div>
+
+      {{ with $item.Params.publication_short}}
+      <div class="article-style">
+        {{ . | markdownify | emojify }}
+      </div>
+      {{ end}}
+
+      {{ with $summary }}
+      <a href="{{ $link }}" {{ $target | safeHTMLAttr }} class="summary-link">
+        <div class="article-style">
+          {{.}}
+        </div>
+      </a>
+      {{ end }}
+      
+
+      {{ if $has_attachments }}
+      <div class="btn-links">
+        {{ partial "page_links" (dict "page" $item "is_list" 1) }}
+      </div>
+      {{ end }}
+
+    </div>
+  
+    <div class="col-12 col-md-4">
+      {{ $resource := partial "functions/get_featured_image.html" $item }}
+      {{ with $resource }}
+        {{ $image := .Resize "300x webp" }}
+        <a href="{{$link}}" {{ $target | safeHTMLAttr }}>
+          <img src="{{ $image.RelPermalink }}" height="{{ $image.Height }}" width="{{ $image.Width }}"
+              alt="{{ $item.Title }}" loading="lazy">
+        </a>
+      {{end}}
+    </div>
+  </div>
+</div>
