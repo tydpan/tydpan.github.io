@@ -84,7 +84,8 @@ email: 'pan.667@osu.edu'
 highlight_name: true
 ---
 
-**_DANIEL IS ACTIVELY SEEKING A FULL-TIME POSITION IN 2024._**
+**_DANIEL IS ACTIVELY SEEKING A FULL-TIME POSITION IN 2024._** 
+{class="typewriter"}
 
 Daniel is PhD candidate at [The Ohio State University](https://www.osu.edu) in MLB lab supervised by [Dr. Wei-Lun (Harry) Chao](https://sites.google.com/view/wei-lun-harry-chao). His research interest lies in machine learning and computer vision. More specifically, it includes 2D/3D large-scale object detection and instance segmentation, long-tailed classification, representation learning, and their applications in autonomous driving and medical imaging. He also has a strong background in chemical and biomolecular engineering.
 {style="text-align: justify;"}
