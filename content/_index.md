@@ -168,7 +168,7 @@ sections:
         featured_only: true
     design:
       columns: '1'
-      view: compact
+      view: community/compact
   # - block: collection
   #   content:
   #     title: Recent Publications
