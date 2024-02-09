@@ -52,7 +52,7 @@ social:
     icon_pack: fas
     link: mailto:pan.667@osu.edu
     label: Email
-  - icon: x-twitter
+  - icon: twitter
     icon_pack: fab
     link: https://twitter.com/tydanielpan
     label: Follow me on X
