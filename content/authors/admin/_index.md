@@ -52,10 +52,10 @@ social:
     icon_pack: fas
     link: mailto:pan.667@osu.edu
     label: Email
-  - icon: twitter
+  - icon: x
     icon_pack: fab
     link: https://twitter.com/tydanielpan
-    label: Follow me on Twitter
+    label: Follow me on X
     display:
       header: true
   - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
