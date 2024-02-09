@@ -1,9 +1,39 @@
 .article-title {
-  font-size: 5px;
+  font-size: 20px;
 //   font-weight: 400;
 //   margin-bottom: 75px;
 //   text-transform: none;
-//   font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 //   font-style: italic;
 //   color: #777;
 }
+
+.article-metadata {
+  font-size: 16px;
+  font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #424242;
+}
+
+.author-highlighted {
+  color: #000;
+  font-style: italic;
+}
+
+.article-style {
+  font-size: 18px;
+  font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #000;
+}
+
+.dark .article-metadata {
+  color: #e0e0e0;
+}
+
+.dark .author-highlighted {
+  color: #FFFFFF;
+}
+
+.dark .article-style {
+  color: #FFFFFF;
+}
+
