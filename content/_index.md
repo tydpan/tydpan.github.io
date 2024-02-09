@@ -168,6 +168,8 @@ sections:
           - publication
         featured_only: true
     design:
+      spacing: 
+        padding: ["20px", "0", "20px", "0"]
       columns: '1'
       view: community/compact
   # - block: collection
