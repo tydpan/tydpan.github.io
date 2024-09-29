@@ -26,8 +26,10 @@ bio: PhD candidate working on machine learning and computer vision at The Ohio S
 
 # Interests to show in About widget
 interests:
-  - Computer Vision
-  - Machine Learning
+  - 2D/3D Detection, Segmentation, Generation
+  - Imbalanced, Long-Tailed Learning
+  - Representation Learning
+  - Multi-Modal, Multi-Agent, Robotic (Ego-Centric) Perception
   - Autonomous Driving
 
 # Education to show in About widget
@@ -50,7 +52,7 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: mailto:pan.667@osu.edu
+    link: mailto:pan.667@buckeyemail.osu.edu
     label: Email
   - icon: twitter
     icon_pack: fab
@@ -78,7 +80,7 @@ social:
   #   link: uploads/resume.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: 'pan.667@osu.edu'
+email: 'pan.667@buckeyemail.osu.edu'
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
@@ -87,5 +89,5 @@ highlight_name: true
 **_DANIEL IS ACTIVELY SEEKING A FULL-TIME POSITION IN 2024._** 
 {class="typewriter"}
 
-Daniel is PhD candidate at [The Ohio State University](https://www.osu.edu) in MLB lab supervised by [Dr. Wei-Lun (Harry) Chao](https://sites.google.com/view/wei-lun-harry-chao). His research interest lies in machine learning and computer vision. More specifically, it includes 2D/3D large-scale object detection and instance segmentation, long-tailed classification, representation learning, and their applications in autonomous driving and medical imaging. He also has a strong background in chemical and biomolecular engineering.
+Daniel is a PhD candidate at [The Ohio State University](https://www.osu.edu) in MLB lab, supervised by [Dr. Wei-Lun (Harry) Chao](https://sites.google.com/view/wei-lun-harry-chao). His research focuses on large-scale computer vision and machine learning, with an emphasis on developing models that learn from imperfect real-world data. In 2024, he was honored with OSU Graduate Student Research Award.
 {style="text-align: justify;"}
