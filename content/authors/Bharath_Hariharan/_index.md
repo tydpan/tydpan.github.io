@@ -1,4 +1,4 @@
 ---
-title: "Wei-Lun Chao"
-website: "https://sites.google.com/view/wei-lun-harry-chao/home"
+title: "Bharath Hariharan"
+website: "https://www.cs.cornell.edu/~bharathh/"
 ---
