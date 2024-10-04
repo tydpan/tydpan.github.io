@@ -1,2 +1,4 @@
-name: "Jinsu Yoo"
+---
+title: "Jinsu Yoo"
 website: "https://jinsuyoo.info/"
+---
