@@ -3,11 +3,9 @@
 {{- $taxonomy := "authors" }}
 {{ if .Param $taxonomy }}
   {{- range $index, $value := (.GetTerms $taxonomy) }}
-    {{- /* Highlight the author's name? */ -}}
-    {{- $highlight_name := .Page.Params.highlight_name | default false -}}
+    {{- if gt $index 0 }},{{ end }} <!-- Comma without space before it -->
 
-    {{- if gt $index 0 }}{{ "," }}{{ end }} <!-- This removes the space before the comma and adds it after -->
-    <span {{ if $highlight_name }}class="author-highlighted"{{end}}>
+    <span {{ if .Page.Params.highlight_name | default false }}class="author-highlighted"{{end}}>
       {{- $author_website := .Page.Params.website | default "" -}}
 
       {{- if $author_website }}
@@ -18,11 +16,16 @@
         {{ .LinkTitle }}
       {{- end }}
     </span>
-
+    
     {{- if isset $.Params "author_notes" -}}
       {{- with (index $.Params.author_notes $index) -}}
         <i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="{{.}}"></i>
       {{- end -}}
     {{- end -}}
+
+    {{- if gt (add $index 1) (len (.GetTerms $taxonomy)) -}} <!-- Add a space after the comma -->
+      {{ " " }}
+    {{- end -}}
+
   {{- end -}}
 {{- end -}}
