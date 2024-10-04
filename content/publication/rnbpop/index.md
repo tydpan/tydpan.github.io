@@ -1,5 +1,5 @@
 ---
-title: 'Pre-Training LiDAR-Based 3D Object Detectors Through Colorization'
+title: 'Learning 3D Perception from Others' Predictions'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
