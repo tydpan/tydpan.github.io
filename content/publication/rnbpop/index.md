@@ -5,9 +5,7 @@ title: "Learning 3D Perception from Others' Predictions"
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-  - Jinsu Yoo:
-      name: "Jinsu Yoo"
-      website: "https://jinsuyoo.info/"
+  - Jinsu Yoo
   - Zhenyang Feng
   - admin
   - Yihong Sun
