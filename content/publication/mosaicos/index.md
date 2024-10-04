@@ -5,14 +5,14 @@ title: 'MosaicOS: A Simple and Effective Use of Object-Centric Images for Long-T
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-  - Cheng Zhang
+  - Cheng_Zhang
   - admin
-  - Yandong Li
-  - Hexiang Hu
-  - Dong Xuan
-  - Soravit Changpinyo
-  - Boqing Gong
-  - Wei-Lun Chao
+  - Yandong_Li
+  - Hexiang_Hu
+  - Dong_Xuan
+  - Soravit_Changpinyo
+  - Boqing_Gong
+  - Wei_Lun_Chao
 
 # Author notes (optional)
 author_notes:

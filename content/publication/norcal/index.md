@@ -6,13 +6,13 @@ title: 'On Model Calibration for Long-Tailed Object Detection and Instance Segme
 # and it will be replaced with their full name and linked to their profile.
 authors:
   - admin
-  - Cheng Zhang
-  - Yandong Li
-  - Hexiang Hu
-  - Dong Xuan
-  - Soravit Changpinyo
-  - Boqing Gong
-  - Wei-Lun Chao
+  - Cheng_Zhang
+  - Yandong_Li
+  - Hexiang_Hu
+  - Dong_Xuan
+  - Soravit_Changpinyo
+  - Boqing_Gong
+  - Wei_Lun_Chao
 
 # Author notes (optional)
 author_notes:

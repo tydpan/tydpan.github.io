@@ -6,7 +6,7 @@ title: '266 COMPUTER-AIDED DETECTION OF ADVANCED NEOPLASIA IN INTRADUCTAL PAPILL
 # and it will be replaced with their full name and linked to their profile.
 authors:
   - Somashekar G Krishna
-  - Wei-Lun Chao
+  - Wei_Lun_Chao
   - Victoria Alexander
   - Tassiana Maloof
   - Kelly Dubay

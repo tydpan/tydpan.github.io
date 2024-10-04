@@ -6,15 +6,15 @@ title: "Learning 3D Perception from Others' Predictions"
 # and it will be replaced with their full name and linked to their profile.
 authors:
   - Jinsu_Yoo
-  - Zhenyang Feng
+  - Zhenyang_Feng
   - admin
-  - Yihong Sun
-  - Cheng Perng Phoo
-  - Xiangyu Chen
-  - Mark Campbell
-  - Kilian Q Weinberger
-  - Bharath Hariharan
-  - Wei-Lun Chao
+  - Yihong_Sun
+  - Cheng_Perng_Phoo
+  - Xiangyu_Chen
+  - Mark_Campbell
+  - Kilian_Q_Weinberger
+  - Bharath_Hariharan
+  - Wei_Lun_Chao
 
 # Author notes (optional)
 # author_notes:

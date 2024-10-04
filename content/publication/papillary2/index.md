@@ -6,8 +6,8 @@ title: 'High performance in risk stratification of intraductal papillary mucinou
 # and it will be replaced with their full name and linked to their profile.
 authors:
   - Jorge D Machicado
-  - Wei-Lun Chao
-  - David E Carlyn
+  - Wei_Lun_Chao
+  - David_Carlyn
   - admin
   - Sarah Poland
   - Victoria L Alexander

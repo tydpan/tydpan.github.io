@@ -6,9 +6,9 @@ title: 'Towards Open-World Segmentation of Parts'
 # and it will be replaced with their full name and linked to their profile.
 authors:
   - admin
-  - Qing Liu
-  - Wei-Lun Chao
-  - Brian Price
+  - Qing_Liu
+  - Wei_Lun_Chao
+  - Brian_Price
 
 # Author notes (optional)
 # author_notes:

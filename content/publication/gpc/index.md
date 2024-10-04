@@ -6,15 +6,15 @@ title: 'Pre-Training LiDAR-Based 3D Object Detectors Through Colorization'
 # and it will be replaced with their full name and linked to their profile.
 authors:
   - admin
-  - Chenyang Ma
-  - Tianle Chen
-  - Cheng Perng Phoo
-  - Katie Z Luo
-  - Yurong You
-  - Mark Campbell
-  - Kilian Q Weinberger
-  - Bharath Hariharan
-  - Wei-Lun Chao
+  - Chenyang_Ma
+  - Tianle_Chen
+  - Cheng_Perng_Phoo
+  - Katie_Luo
+  - Yurong_You
+  - Mark_Campbell
+  - Kilian_Q_Weinberger
+  - Bharath_Hariharan
+  - Wei_Lun_Chao
 
 # Author notes (optional)
 # author_notes:

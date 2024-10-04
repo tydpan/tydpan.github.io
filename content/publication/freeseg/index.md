@@ -5,12 +5,12 @@ title: 'Learning with Free Object Segments for Long-Tailed Instance Segmentation
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-  - Cheng Zhang
+  - Cheng_Zhang
   - admin
-  - Tianle Chen
-  - Jike Zhong
-  - Wenjin Fu
-  - Wei-Lun Chao
+  - Tianle_Chen
+  - Jike_Zhong
+  - Wenjin_Fu
+  - Wei_Lun_Chao
 
 # Author notes (optional)
 # author_notes:

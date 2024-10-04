@@ -5,12 +5,12 @@ title: 'One Step at a Time: Long-Horizon Vision-and-Language Navigation with Mil
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-  - Chan Hee Song
-  - Jihyung Kil
+  - Chan_Hee_Song
+  - Jihyung_Kil
   - admin
-  - Brian M Sadler
-  - Wei-Lun Chao
-  - Yu Su
+  - Brian_M_Sadler
+  - Wei_Lun_Chao
+  - Yu_Su
 
 # Author notes (optional)
 # author_notes:
