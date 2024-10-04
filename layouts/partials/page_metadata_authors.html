@@ -6,11 +6,11 @@
     {{- /* Highlight the author's name? */ -}}
     {{- $highlight_name := .Page.Params.highlight_name | default false -}}
 
-    {{- if gt $index 0 }}, {{ end }}
+    {{- if gt $index 0 }}, {{ end }} <!-- No space before, but a space after the comma -->
     <span {{ if $highlight_name }}class="author-highlighted"{{end}}>
       {{/* Effectively check the page's `_build` option as `_build` is not exposed in Hugo's Page object. */}}
       {{- $author_website := .Page.Params.website | default "" -}}
-      
+
       {{- if .RelPermalink -}}
         {{- if $author_website }}
           <a href="{{ $author_website }}" target="_blank">{{ .LinkTitle }}</a>
