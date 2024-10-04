@@ -11,19 +11,13 @@
       {{/* Effectively check the page's `_build` option as `_build` is not exposed in Hugo's Page object. */}}
       {{- $author_website := .Page.Params.website | default "" -}}
 
-      {{- if .RelPermalink -}}
-        {{- if $author_website }}
-          <a href="{{ $author_website }}" target="_blank">{{ .LinkTitle }}</a>
-        {{- else -}}
-          <a href="{{.RelPermalink}}">{{.LinkTitle}}</a>
-        {{- end -}}
+      {{- if $author_website }}
+        <a href="{{ $author_website }}" target="_blank">{{ .LinkTitle }}</a>
+      {{- else if .RelPermalink -}}
+        <a href="{{.RelPermalink}}">{{.LinkTitle}}</a>
       {{- else -}}
-        {{ if $author_website }}
-          <a href="{{ $author_website }}" target="_blank">{{ .LinkTitle }}</a>
-        {{ else }}
-          {{ .LinkTitle }}
-        {{ end }}
-      {{- end -}}
+        {{ .LinkTitle }}
+      {{- end }}
     </span>
 
     {{- if isset $.Params "author_notes" -}}
