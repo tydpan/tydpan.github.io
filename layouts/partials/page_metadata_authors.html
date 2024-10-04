@@ -9,12 +9,23 @@
     {{- if gt $index 0 }}, {{ end -}}
     <span {{ if $highlight_name }}class="author-highlighted"{{end}}>
       {{/* Effectively check the page's `_build` option as `_build` is not exposed in Hugo's Page object. */}}
+      {{- $author_website := .Page.Params.website | default "" -}}
+      
       {{- if .RelPermalink -}}
-        <a href="{{.RelPermalink}}">{{.LinkTitle}}</a>
+        {{- if $author_website }}
+          <a href="{{ $author_website }}" target="_blank">{{ .LinkTitle }}</a>
+        {{- else -}}
+          <a href="{{.RelPermalink}}">{{.LinkTitle}}</a>
+        {{- end -}}
       {{- else -}}
-        {{ .LinkTitle }}
+        {{ if $author_website }}
+          <a href="{{ $author_website }}" target="_blank">{{ .LinkTitle }}</a>
+        {{ else }}
+          {{ .LinkTitle }}
+        {{ end }}
       {{- end -}}
     </span>
+
     {{- if isset $.Params "author_notes" -}}
       {{- with (index $.Params.author_notes $index) -}}
         <i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="{{.}}"></i>
