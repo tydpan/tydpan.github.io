@@ -39,7 +39,7 @@ education:
       institution: The Ohio State University
       year: 2024 (anticipated)
     - course: MS in Chemical Engineering / Data Science
-      institution: University of Washinton
+      institution: University of Washington
       year: 2018
     - course: BS in Chemical Engineering
       institution: National Taiwan University
