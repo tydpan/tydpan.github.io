@@ -84,6 +84,8 @@ email: 'pan.667@buckeyemail.osu.edu'
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
+
+website: https://tydpan.github.io/
 ---
 
 **_DANIEL IS ACTIVELY SEEKING A FULL-TIME POSITION IN 2024._** 
