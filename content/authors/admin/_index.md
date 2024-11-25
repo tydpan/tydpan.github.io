@@ -37,7 +37,7 @@ education:
   courses:
     - course: PhD in Computer Science and Engineering
       institution: The Ohio State University
-      year: 2024 (anticipated)
+      year: 2024
     - course: MS in Chemical Engineering / Data Science
       institution: University of Washington
       year: 2018
@@ -91,5 +91,5 @@ website: https://tydpan.github.io/
 **_DANIEL IS ACTIVELY SEEKING A FULL-TIME POSITION IN 2024._** 
 {class="typewriter"}
 
-I am a PhD candidate at [The Ohio State University](https://www.osu.edu) in MLB lab, supervised by [Dr. Wei-Lun (Harry) Chao](https://sites.google.com/view/wei-lun-harry-chao). My research focuses on large-scale computer vision and machine learning, with an emphasis on developing models that learn from imperfect real-world data. In 2024, I was honored with OSU Graduate Student Research Award. Please find my [CV](uploads/resume.pdf) (updated: 10/2024).
+I am a PhD candidate at [The Ohio State University](https://www.osu.edu) in MLB lab, supervised by [Dr. Wei-Lun (Harry) Chao](https://sites.google.com/view/wei-lun-harry-chao). My research focuses on large-scale computer vision and machine learning, with an emphasis on developing models that learn from imperfect real-world data. In 2024, I was honored with OSU Graduate Student Research Award. Please find my [CV](uploads/resume.pdf) (updated: 12/2024).
 {style="text-align: justify;"}
