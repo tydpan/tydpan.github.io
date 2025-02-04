@@ -14,7 +14,7 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Ph.D. Candidate
+role: Ph.D.
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -22,7 +22,7 @@ organizations:
     url: https://www.osu.edu
 
 # Short bio (displayed in user profile at end of posts)
-bio: PhD candidate working on machine learning and computer vision at The Ohio State University
+bio: machine learning and computer vision researcher
 
 # Interests to show in About widget
 interests:
@@ -80,7 +80,7 @@ social:
     link: uploads/resume.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: 'pan.667@buckeyemail.osu.edu'
+email: 'tydpan@gmail.com'
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
@@ -88,8 +88,8 @@ highlight_name: true
 website: https://tydpan.github.io/
 ---
 
-**_DANIEL IS ACTIVELY SEEKING A FULL-TIME POSITION IN 2024._** 
+**_DANIEL IS ACTIVELY SEEKING A FULL-TIME POSITION IN 2025._** 
 {class="typewriter"}
 
-I am a PhD candidate at [The Ohio State University](https://www.osu.edu) in MLB lab, supervised by [Dr. Wei-Lun (Harry) Chao](https://sites.google.com/view/wei-lun-harry-chao). My research focuses on large-scale computer vision and machine learning, with an emphasis on developing models that learn from imperfect real-world data. In 2024, I was honored with OSU Graduate Student Research Award. Please find my [CV](uploads/resume.pdf) (updated: 02/2024).
+I earned my PhD in Computer Science and Engineering from [The Ohio State University](https://www.osu.edu), supervised by [Dr. Wei-Lun (Harry) Chao](https://sites.google.com/view/wei-lun-harry-chao). My research focuses on large-scale computer vision and machine learning, with an emphasis on developing models that learn from imperfect real-world data. In 2024, I was honored with OSU Graduate Student Research Award. Please find my [CV](uploads/resume.pdf) (updated: 02/2025).
 {style="text-align: justify;"}
