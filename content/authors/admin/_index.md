@@ -91,5 +91,5 @@ website: https://tydpan.github.io/
 **_DANIEL IS ACTIVELY SEEKING A FULL-TIME POSITION IN 2025._** 
 {class="typewriter"}
 
-I earned my PhD in Computer Science and Engineering from [The Ohio State University](https://www.osu.edu), supervised by [Dr. Wei-Lun (Harry) Chao](https://sites.google.com/view/wei-lun-harry-chao). My research focuses on large-scale computer vision and machine learning, with an emphasis on developing models that learn from imperfect real-world data. In 2024, I was honored with OSU Graduate Student Research Award. Please find my [CV](uploads/resume.pdf) (updated: 02/2025).
+I earned my PhD in Computer Science and Engineering from [The Ohio State University](https://www.osu.edu), supervised by [Dr. Wei-Lun (Harry) Chao](https://sites.google.com/view/wei-lun-harry-chao). My research focuses on large-scale 2D/3D computer vision and machine learning, with an emphasis on developing models that learn from imperfect real-world data. In 2024, I was honored with OSU Graduate Student Research Award. Please find my [CV](uploads/resume.pdf) (updated: 02/2025).
 {style="text-align: justify;"}
