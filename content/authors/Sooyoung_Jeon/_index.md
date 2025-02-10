@@ -1,4 +1,4 @@
 ---
 title: "Sooyoung Jeon"
-website: "https://www.linkedin.com/in/sooyoung-jeon-b9b473188/"
+website: "https://jeonso0907.github.io/"
 ---
