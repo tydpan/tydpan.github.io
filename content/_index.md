@@ -161,7 +161,7 @@ sections:
   - block: collection
     id: featured
     content:
-      title: Featured Publications
+      title: Featured Projects & Publications
       count: 0
       filters:
         folders:
