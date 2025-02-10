@@ -11,6 +11,17 @@ sections:
       title: ''
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
+  - block: markdown
+    id: news
+    content:
+      title: 'Recent news!'
+      subtitle: '[All news>>](/news)'
+      text: |-
+        {{< readfromfile "/content/newslist.dat" 15 >}}
+    design:
+      spacing: 
+        padding: ["20px", "0", "20px", "0"]
+      columns: '2'
   # - block: skills
   #   content:
   #     title: Skills
