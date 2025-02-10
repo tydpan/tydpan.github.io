@@ -44,6 +44,8 @@ featured: true
 links:
 - name: news
   url: 'https://car.osu.edu/news/2022/06/buckeye-autodrive-places-second-overall-inaugural-competition'
+- name: SAE
+  url: 'https://www.sae.org/attend/student-events/autodrive-challenge-series2'
 
 url_pdf: ''
 url_code: ''
