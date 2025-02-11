@@ -33,8 +33,8 @@ publishDate: '2025-02-10'
 publication_types: ['1']
 
 # Publication name and optional abbreviated publication name.
-publication: In *arXiv*
-publication_short: In *arXiv 2025*
+publication: *arXiv*
+publication_short: *arXiv 2025*
 
 abstract: "Self-driving cars relying solely on ego-centric perception face limitations in sensing, often failing to detect occluded, faraway objects. Collaborative autonomous driving (CAV) seems like a promising direction, but collecting data for development is non-trivial. It requires placing multiple sensor-equipped agents in a real-world driving scene, simultaneously! As such, existing datasets are limited in locations and agents. We introduce a novel surrogate to the rescue, which is to generate realistic perception from different viewpoints in a driving scene, conditioned on a real-world sample - the ego-car's sensory data. This surrogate has huge potential: it could potentially turn any ego-car dataset into a collaborative driving one to scale up the development of CAV. We present the very first solution, using a combination of simulated collaborative data and real ego-car data. Our method, Transfer Your Perspective (TYP), learns a conditioned diffusion model whose output samples are not only realistic but also consistent in both semantics and layouts with the given ego-car data. Empirical results demonstrate TYP's effectiveness in aiding in a CAV setting. In particular, TYP enables us to (pre-)train collaborative perception algorithms like early and late fusion with little or no real-world collaborative data, greatly facilitating downstream CAV applications."
 
@@ -51,9 +51,9 @@ featured: true
 # Custom links (uncomment lines below)
 links:
 - name: arXiv
-  url: ''
+  url: 'https://arxiv.org/abs/2502.06682'
 
-url_pdf: ''
+url_pdf: 'https://arxiv.org/pdf/2502.06682'
 url_code: ''
 url_dataset: ''
 url_poster: ''
