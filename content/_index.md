@@ -13,7 +13,7 @@ sections:
       username: admin
     design:
       spacing: 
-        padding: ["20px", "0", "20px", "0"]
+        padding: ["20px", "0", "0", "0"]
   - block: markdown
     id: news
     content:
